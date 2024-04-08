@@ -22,11 +22,10 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class JokeServiceTest {
 
-    @Mock
-    private RestTemplate restTemplate;
-
     @InjectMocks
     JokeService jokeService;
+    @Mock
+    private RestTemplate restTemplate;
 
     @Test
     void givenAValidResponse_whenGetAJoke_ThenAValidJokeIsReturned() {

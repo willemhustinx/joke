@@ -31,7 +31,7 @@ public class JokeService {
     public Joke getAJoke() {
         final ResponseEntity<JokeList> response = restTemplate.getForEntity(URL, JokeList.class);
 
-        if (response.getBody() == null  || response.getBody().getJokes() == null || response.getBody().getJokes().isEmpty()) {
+        if (response.getBody() == null || response.getBody().getJokes() == null || response.getBody().getJokes().isEmpty()) {
             throw new NoJokeException("No jokes found!");
         }
 

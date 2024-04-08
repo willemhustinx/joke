@@ -5,7 +5,7 @@ import nl.sogeti.java.joke.model.joke.JokeFactory;
 import nl.sogeti.java.joke.rest.response.JokeResponse;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JokeMapperTest {
 

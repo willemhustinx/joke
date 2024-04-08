@@ -3,7 +3,6 @@ package nl.sogeti.java.joke.rest.controller;
 import nl.sogeti.java.joke.exception.NoJokeException;
 import nl.sogeti.java.joke.model.joke.Joke;
 import nl.sogeti.java.joke.model.joke.JokeFactory;
-import nl.sogeti.java.joke.rest.controller.JokeController;
 import nl.sogeti.java.joke.service.JokeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
